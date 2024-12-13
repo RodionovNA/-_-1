@@ -1,0 +1,1 @@
+PROGRAM abc  INTEGER a b c  4 DECL INTEGER sum  2 DECL   sum b  c  5  sum + + -  =  b 3  =  a  b  .GT.   m1 BF a sum  2  c - +  =   m2 BRL m1 DEFL sum 0  =   m2 DEFL   END abc  

@@ -1,0 +1,108 @@
+Program
+			Begin
+						Terminal: KeyWord PROGRAM
+						ID
+									Terminal: Id abc
+			Description
+						Descr
+									Type
+												Terminal: KeyWord INTEGER
+									VarList
+												ID
+															Terminal: Id a
+												Terminal: Operator ,
+												VarList
+															ID
+																		Terminal: Id b
+															Terminal: Operator ,
+															VarList
+																		ID
+																					Terminal: Id c
+						Description
+									Descr
+												Type
+															Terminal: KeyWord INTEGER
+												VarList
+															ID
+																		Terminal: Id sum
+			Operators
+						Op
+									ID
+												Terminal: Id sum
+									Terminal: Equal =
+									Expr
+												SimpleExpr
+															ID
+																		Terminal: Id b
+												Terminal: Operator -
+												Expr
+															SimpleExpr
+																		ID
+																					Terminal: Id c
+															Terminal: Operator +
+															Expr
+																		SimpleExpr
+																					Const
+																								Terminal: Const 5
+																		Terminal: Operator +
+																		Expr
+																					SimpleExpr
+																								ID
+																											Terminal: Id sum
+						Operators
+									Op
+												ID
+															Terminal: Id b
+												Terminal: Equal =
+												Expr
+															SimpleExpr
+																		Const
+																					Terminal: Const 3
+									Operators
+												Op
+															Terminal: KeyWord IF
+															Conditions
+																		Expr
+																					SimpleExpr
+																								ID
+																											Terminal: Id a
+																		RelationsOperators
+																					Terminal: Comparator .GT.
+																		Expr
+																					SimpleExpr
+																								ID
+																											Terminal: Id b
+															Terminal: KeyWord THEN
+															Operators
+																		Op
+																					ID
+																								Terminal: Id a
+																					Terminal: Equal =
+																					Expr
+																								SimpleExpr
+																											ID
+																														Terminal: Id sum
+																								Terminal: Operator +
+																								Expr
+																											SimpleExpr
+																														Const
+																																	Terminal: Const 2
+																											Terminal: Operator -
+																											Expr
+																														SimpleExpr
+																																	ID
+																																				Terminal: Id c
+															Terminal: KeyWord ELSE
+															Operators
+																		Op
+																					ID
+																								Terminal: Id sum
+																					Terminal: Equal =
+																					Expr
+																								SimpleExpr
+																											Const
+																														Terminal: Const 0
+			End
+						Terminal: KeyWord END
+						ID
+									Terminal: Id abc

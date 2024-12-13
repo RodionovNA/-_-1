@@ -1,0 +1,7 @@
+PROGRAM abc
+INTEGER a , b , c
+INTEGER sum
+sum = b - c + 5 + sum
+b = 3
+IF a .GT. b THEN a = sum + 2 - c ELSE sum = 0
+END abc

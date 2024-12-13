@@ -1,0 +1,19 @@
+Интекс | Тип | Значение
+0  Operator +
+1  Operator ,
+2  Operator -
+3  Equal =
+4  Id a
+5  Id b
+6  Id c
+7  KeyWord ELSE
+8  Id sum
+9  KeyWord IF
+10  Id abc
+11  Comparator .GT.
+12  KeyWord END
+13  KeyWord INTEGER
+14  KeyWord THEN
+15  KeyWord PROGRAM
+
+Плохая лексема
